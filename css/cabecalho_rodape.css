@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Cabeçalho */
+header {
+    background: url("../img/bg.jpg");
+}
+.caixa{
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.caixa li:hover{
+    color: rgb(147,19,10);
+    text-decoration: underline;
+}
+
+.imagem-cabecalho{
+    width: 25%;
+}
+nav {
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+nav li{
+    display: inline;
+        /*  cima dir  baixo esq  */
+    margin: 0     0    0    15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* Rodapé */
+
+footer{
+    text-align: center;
+    background: url("../img/bg.jpg");
+    padding: 40px;
+}
+
+.imagem-rodape{
+    width: 10%;
+}
+
+.copyright{
+    font-size: 16px;
+    margin-top: 12px;
+}

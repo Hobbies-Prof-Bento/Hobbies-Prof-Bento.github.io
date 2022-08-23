@@ -1,0 +1,27 @@
+body{
+    background: #C1CDC1; 
+}
+.banner{
+    width: 100%;
+}
+.texto-centralizado{
+    text-align: center;      
+}
+p{
+    padding-left: 20px;
+}
+em strong{
+    color: red;
+}
+.missao{
+    font-size: 20px;
+}
+ul{
+    display: inline-block;
+    margin-right: 30%;
+    vertical-align: top;
+}
+.imagem-beneficios{
+    width: 35%;
+}
+
