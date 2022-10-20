@@ -907,9 +907,9 @@ function init(){
             pFim.style.display = "block"
 
             if (capivara1.points > capivara2.points) {
-                pFim.innerHTML = "<span class='fim'>FIM DE JOGO!</span><br><br><span class='fimsub'>O Jogador 1 venceu!</span></p>"
+                pFim.innerHTML = "<span class='fim'>FIM DE JOGO!</span><br><br><span class='fimsub'>O Jogador 1 venceu! <br><br>Aperte F5</span></p>"
             }else if (capivara2.points > capivara1.points) {
-                pFim.innerHTML = "<span class='fim'>FIM DE JOGO!</span><br><br><span class='fimsub'>O Jogador 2 venceu!</span></p>"
+                pFim.innerHTML = "<span class='fim'>FIM DE JOGO!</span><br><br><span class='fimsub'>O Jogador 2 venceu! <br><br>Aperte F5</span></p>"
             }else{
                 pFim.innerHTML = "<span class='fim'>FIM DE JOGO!</span><br><br><span class='fimsub'>Empate!</span></p>"
             }
